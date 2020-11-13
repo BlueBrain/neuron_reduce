@@ -232,6 +232,8 @@ def create_segments_to_mech_vals(sections_to_delete,
             for n in dir(mech):
                 if n.startswith('__') or n in ('next', 'name', 'is_ion', 'segment', ):
                     continue
+                if mech_name == 'StochKv3' and n == 'rng':
+                    continue
 
                 if not n.endswith('_' + mech_name) and not mech_name.endswith('_ion'):
                     n += '_' + mech_name
