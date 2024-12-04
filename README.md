@@ -125,3 +125,11 @@ plt.show()
 Citation
 ===========
 O. Amsalem, G. Eyal, N. Rogozinski, M. Gevaert, P. Kumbhar, F. Schürmann, I. Segev. <i><b>An efficient analytical reduction of detailed nonlinear neuron models.</b></i> Nat. Commun., 11 (2020), p. 288
+
+
+Acknowledgment
+==============
+
+The development of this software was supported by funding to the Blue Brain Project, a research center of the École polytechnique fédérale de Lausanne (EPFL), from the Swiss government's ETH Board of the Swiss Federal Institutes of Technology.
+
+Copyright (c) 2024 Blue Brain Project/EPFL
